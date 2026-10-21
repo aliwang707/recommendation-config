@@ -1,0 +1,20 @@
+/* 全局基础样式：脚手架自带的居中/限宽演示样式已清理，页面全屏铺满 */
+:root {
+  font: 14px/1.5 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #303133;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  min-height: 100svh;
+}
